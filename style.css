@@ -24,3 +24,7 @@ body > div{
     grid-column: 2 / 3;
     grid-row: 1 / 2;
 }
+#mainContent{
+    background-color: aqua;
+    grid-area: 2 / 2 / 3 / 3;
+}
