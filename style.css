@@ -19,3 +19,8 @@ body > div{
     width: 300px;
     background-color: #f24d4d;
 }
+#sideBar{
+    background-color: blue;
+    grid-column: 2 / 3;
+    grid-row: 1 / 2;
+}
