@@ -7,3 +7,15 @@ body{
     grid-template-columns: 50px 50px;
     grid-template-rows: 50px  50px;
 }
+body > div{
+    border: 1px solid blue;
+}
+#header{
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end: 3;
+    height: 750px;
+    width: 300px;
+    background-color: #f24d4d;
+}
