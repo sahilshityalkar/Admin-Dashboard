@@ -59,3 +59,19 @@ body > div{
     font-family: 'Lora', serif;
     font-size: 1.5rem;
 }
+#menuList{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.listOfMenu{
+    font-family: 'Courier New', Courier, monospace;
+    list-style: none;
+    font-family: 'Carlito', sans-serif;
+    font-weight: 800;
+    font-size: 1.3rem;
+    margin-top: 1rem;
+}
+.ux{
+  margin-top: 3rem;
+}
