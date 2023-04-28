@@ -13,11 +13,8 @@
 }
 body{
     display: grid;
-    grid-template-columns: 20rem auto;
-    grid-template-rows: 10rem 35rem;
-}
-body > div{
-    border:1px solid rgb(0, 0, 0);
+    grid-template-columns: 18rem auto;
+    grid-template-rows: auto auto;
 }
 #sideBar{
     grid-column-start: 1;
@@ -27,13 +24,15 @@ body > div{
     background-color: #4ca0ee;
 }
 #header{
-    background-color: blue;
+    box-shadow: 5px 5px rgb(228, 228, 228);
+    background-color: rgb(255, 255, 255);
     grid-column: 2 / 3;
     grid-row: 1 / 2;
 }
 #mainContent{
-    background-color: aqua;
+    background-color: #e9eaec;
     grid-area: 2 / 2 / 3 / 3;
+    margin-top: 3px;
 }
 #logo{
     display: grid;
@@ -45,10 +44,9 @@ body > div{
     background-color: rgb(255, 255, 255);
 }
 #logoName{
-    margin: 2rem;
+    margin: 1rem;
+    margin-top: 2rem;
     display: flex;
-    align-items: center;
-    justify-content: center;
 }
 .firstLogoDiv{
     grid-area: 1 / 1 / 3 / 2;
@@ -58,25 +56,4 @@ body > div{
 }
 .fourthLogoDiv{
     grid-area: 2 / 2 / 4 / 2;
-}
-#nameOfProject{
-    margin-left: 1rem;
-    font-family: 'Lora', serif;
-    font-size: 1.5rem;
-}
-#menuList{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-.listOfMenu{
-    font-family: 'Courier New', Courier, monospace;
-    list-style: none;
-    font-family: 'Carlito', sans-serif;
-    font-weight: 800;
-    font-size: 1.3rem;
-    margin-top: 1rem;
-}
-.ux{
-  margin-top: 3rem;
 }
