@@ -105,3 +105,56 @@ input{
     background-color: rgb(235, 235, 236);
     margin-left: 1rem;
 }
+
+.iconClass{
+    height: 2rem;
+}
+.profileLogo{
+    height: 3rem;
+    border-radius: 9999em;
+}
+.headerBar{
+    display: flex;
+    margin: 1rem;
+    justify-content: space-between;
+}
+.profileBar{
+    padding-right: 3rem;
+    display: flex;
+    align-items: center;
+}
+.profileBaricon{
+    margin-left: 1rem;
+    font-family: 'Cabin', sans-serif;
+}
+.searchBar{
+    display: flex;
+    align-items: center;
+}
+.profileBar > p{
+    font-size: 1.5rem;
+}
+.littleBig{
+    height: 4rem;
+}
+.profileDis{
+    margin-left: 2rem;
+    margin-bottom: 1rem;
+}
+.profilePosition{
+    display: flex;
+    justify-content: space-between;
+}
+#buttonsOptions{
+    margin-right: 4rem;
+}
+.buttons{
+    margin-left: 4rem;
+    color: white;
+    font-weight: 500;
+    background-color: rgba(25,146,212,255);
+    width: 75px;
+    height: 30px;
+    border-radius: 15px;
+    border: none;
+}
