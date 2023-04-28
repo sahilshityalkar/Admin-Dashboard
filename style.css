@@ -57,3 +57,51 @@ body{
 .fourthLogoDiv{
     grid-area: 2 / 2 / 4 / 2;
 }
+#nameOfProject{
+    margin-left: 1rem;
+    font-family: 'Lora', serif;
+    font-size: 1.5rem;
+    color: #ffffff;
+}
+#menuList{
+    display: flex;
+    margin-left: 1rem;
+    align-items: center;
+    color: #ffffff;
+}
+#menuList > ul > li > img{
+    color: #feffff;
+}
+.listOfMenu{
+    font-family: 'Courier New', Courier, monospace;
+    list-style: none;
+    font-family: 'Carlito', sans-serif;
+    font-weight: 800;
+    font-size: 1.3rem;
+    margin-top: 1rem;
+}
+.ux{
+  margin-top: 3rem;
+}
+#menuList > ul > li{
+    display: flex;
+    flex-direction: row;
+}
+.listOfMenu > img{
+    height: 2rem;
+    margin-right: 1rem;
+    filter: invert(100%);
+}
+#searchBarLogo{
+    height: 2rem;
+}
+input{
+    border-radius: 9999em;
+    font-size: 1.3rem;
+    padding-left: 1rem;
+    height: 2rem;
+    width: 35rem;
+    border: 1px solid rgb(255, 255, 255);
+    background-color: rgb(235, 235, 236);
+    margin-left: 1rem;
+}
