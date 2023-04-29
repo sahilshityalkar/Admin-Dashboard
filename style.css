@@ -239,3 +239,34 @@ input{
     background-color: #ffffff;
     padding: 1.2rem;
 }
+.announcementHeaders{
+    font-size: 1rem;
+    font-family: 'EB Garamond', serif;
+}
+.announcementDis{
+    font-size: 0.8rem;
+    font-family: 'PT Sans Narrow', sans-serif;
+}
+.announcementContent{
+    margin-bottom: 1rem;
+    margin-top: 0.8rem;
+    padding-right: 0.5rem;
+}
+.trending-Box{
+    background-color: #ffffff;
+    padding: 1rem;
+    padding-left: 2rem;
+    margin: 1rem;
+    box-shadow: 3px 2px rgb(200, 198, 198);
+}
+.profileInTrending{
+    margin: 1rem;
+    display: flex;
+}
+.profileNameTrending{
+    display: flex;
+    flex-direction: column;
+    margin-left: 0.5rem;
+    justify-content: center;
+    font-family: 'Cabin', sans-serif;
+}
