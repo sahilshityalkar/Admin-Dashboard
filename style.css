@@ -216,3 +216,14 @@ input{
     margin: 1rem;
 
 }
+.trendingProfile{
+    height: 3rem;
+    border-radius: 9999em;
+}
+.allRound{
+    border-radius: 70%;
+    height: 2.6rem;
+}
+.announcementSection{
+    margin-top: 1rem;
+}
