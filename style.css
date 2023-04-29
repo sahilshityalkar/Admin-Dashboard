@@ -227,3 +227,15 @@ input{
 .announcementSection{
     margin-top: 1rem;
 }
+.headerOfMain{
+    font-size: 1.4rem;
+    margin-left: 2rem;
+    font-family: 'Heebo', sans-serif;
+}
+.announcementSection-box{
+    margin: 1rem;
+    /* box-shadow: 3px 3px 0 rgb(200, 198, 198), -3px -3px 0 rgb(200, 198, 198), -3px 3px 0 rgb(200, 198, 198), 3px -3px 0 rgb(200, 198, 198); */
+    box-shadow: 3px 2px rgb(200, 198, 198);
+    background-color: #ffffff;
+    padding: 1.2rem;
+}
