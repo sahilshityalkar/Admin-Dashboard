@@ -199,3 +199,20 @@ input{
     padding-left: 10px;
     padding-top: 10px;
 }
+.projectsContainer > div > h3{
+    font-family: 'Cabin', sans-serif;
+    margin-bottom: 0.8rem;
+    font-weight: 500;
+}
+.projectsContainer > div > p{
+    font-family: 'EB Garamond', serif;
+}
+.socialLogo{
+    display: flex;
+    justify-content: flex-end;
+    margin: 1rem;
+}
+.pojects > p{
+    margin: 1rem;
+
+}
